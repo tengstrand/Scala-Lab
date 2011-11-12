@@ -2,6 +2,9 @@ package nu.tengstrand.scalalab.programminginscala
 
 /**
  * How to build your own List/Array classes.
+ *
+ * Author: Joakim Tengstrand
+ * Repository: git@github.com:tengstrand/Scala-Lab.git
  */
 object Example001ListSyntax {
   def main(args: Array[String]) {
