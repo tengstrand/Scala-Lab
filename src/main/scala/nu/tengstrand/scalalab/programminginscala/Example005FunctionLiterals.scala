@@ -4,7 +4,7 @@ package nu.tengstrand.scalalab.programminginscala
  * Sid 148. Exempel på när man måste ha med typen
  * för en viss parameter i en "function literal".
  */
-object Example05FunctionLiterals {
+object Example005FunctionLiterals {
 
   def main(args: Array[String]) {
     val integers = List(1,2,3,4,5)

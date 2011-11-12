@@ -3,7 +3,7 @@ package nu.tengstrand.scalalab.programminginscala
 /**
  * How to build your own List/Array classes.
  */
-object Example01ListSyntax {
+object Example001ListSyntax {
   def main(args: Array[String]) {
     val myArray = new MyArray()
     println(myArray(0)) // output: 1
