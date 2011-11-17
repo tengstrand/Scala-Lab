@@ -8,11 +8,13 @@ object Example003UnaryOperatorSyntax {
   def main(args: Array[String]) {
     val value = new MyType(123)
     println(-value) // output: -123
-    println(value.unary_-); // output: -123
+    println(+value) // output: 123
+    println(value.unary_-) // output: -123
   }
 }
 
 class MyType(value: Int) {
   def unary_- = new MyType(-value)
+  def unary_+ = this
   override def toString = value.toString
 }

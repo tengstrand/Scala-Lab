@@ -4,7 +4,7 @@ package nu.tengstrand.scalalab.programminginscala
  * Example how to use symbols.
  * Page 80 in the book "Programming in Scala, 2nd edition".
  */
-object Ëxample002Symbol {
+object Example002Symbol {
   def main(args: Array[String]) {
     new Example().print('KalleKanin) // output: Value: KalleKanin
   }

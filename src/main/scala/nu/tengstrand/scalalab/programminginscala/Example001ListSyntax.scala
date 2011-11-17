@@ -2,6 +2,7 @@ package nu.tengstrand.scalalab.programminginscala
 
 /**
  * How to build your own List/Array classes.
+ * Page 39 in the book "Programming in Scala, 2nd edition".
  *
  * Author: Joakim Tengstrand
  * Repository: git@github.com:tengstrand/Scala-Lab.git
@@ -10,7 +11,7 @@ object Example001ListSyntax {
   def main(args: Array[String]) {
     val myArray = new MyArray()
     println(myArray(0)) // output: 1
-    println(myArray.apply(1)); // output: 2
+    println(myArray.apply(1)) // output: 2
   }
 }
 

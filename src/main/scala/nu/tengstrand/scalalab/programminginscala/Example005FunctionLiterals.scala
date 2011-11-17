@@ -1,8 +1,8 @@
 package nu.tengstrand.scalalab.programminginscala
 
 /**
- * Sid 148. Exempel på när man måste ha med typen
- * för en viss parameter i en "function literal".
+ * Example of 'function literal'
+ * Page 148 in the book "Programming in Scala, 2nd edition".
  */
 object Example005FunctionLiterals {
 
